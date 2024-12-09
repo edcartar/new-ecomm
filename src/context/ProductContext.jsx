@@ -91,7 +91,7 @@
 import React, { createContext, useState } from "react";
 import { useQuery } from '@tanstack/react-query';
 import axios from "axios";
-import loaderGif from '../img/loader.gif';
+import loaderGif from '../../public/assets/loader.gif';
 
 // Create the ProductContext
 export const ProductContext = createContext();
